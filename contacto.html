@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Contacto</title>
+    <link rel="stylesheet" href="estilosblog.css">
+    <link rel="stylesheet" href="menuflexbox.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+<body>
+
+<header>
+  <div id="NOMBREBLOG"><h1>Let's travel</h1></div>
+  <div class="menu-flex">
+    <nav class="BOTONERAPRINCIPAL menu-simple">
+      <ul>
+        <li><a href="proyecto.html">Inicio</a></li>
+        <li><a href="destinos.html">Destinos</a></li>
+        <li><a href="noticias.html">Noticias</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+   </nav>
+ </div>
+</header>
+
+<section id="CONTENIDO_CONTACTO">
+  <div id="CONTACTO">
+      <h1 class="FORM_CONTACTO"> FORMULARIO DE CONTACTO</h1>
+      <p class="TEXT">Si es por temas que aparecen en el blog, te pedimos que busques el posteo que más se relaciona y coloques allí tu consulta, para que además de responderte otras personas puedan aportar su conocimiento y experiencia.</p>
+      <p class="TEXT2">Por mail recibimos muchas cosas, y preferimos que todo quede acá de manera pública en el blog.</p>
+      <h2 class="OTROS_TEMAS">Si es por otros temas tales como:</h2>
+      <!--<ul class="LISTA">-->
+        <p id="otrosTemas"> <em></em> </p>
+    <!--    <li>Invitaciones</li>
+        <li>Publicidad</li>
+        <li> Charlas</li>
+      </ul>-->
+      <p class="TEXT3">Siempre nos pueden contactar por medio de este formulario.</p>
+    </div>
+
+   <div id="FORMULARIO1">
+
+    <form class="FORMULARIO" action="#" method="post">
+         <div class="nombre">
+           <input type="text" name="name" placeholder="Nombre" size="55">
+         </div>
+
+         <div class="email">
+           <input type="email" name="email" placeholder="Email*" size="25" id="email">
+           <input type="tel" name="Telefono"  placeholder="Telefono (opcional)" size="25">
+         </div>
+
+         <div class="asunto">
+           <input type="text" name="subject" placeholder="Asunto" size="55">
+         </div>
+
+         <div class="consulta">
+         <textarea name="consulta" placeholder="Dejanos tu consulta*" rows="12" cols="80" id="consulta" minlength="20"></textarea>
+        </div>
+
+         <section id="cajasoltar" style="text-align: center">
+          Arrastra tus archivos aqui.
+         </section>
+
+         <button class="ENVIAR_CONTACTO" name="enviar" type="submit" class="boton">¡LISTO!</button>
+
+
+         </form>
+         <script type="text/javascript" src="js/drag-drop-contacto.js">
+
+         </script>
+         <script type="text/javascript" src="js/validacion.js"></script>
+
+</section>
+
+<footer>
+    <nav id="LOGO_FB">
+          <a href="#"><img id="iconofb"src="imagenes/facebook.png"></a>
+    </nav>
+    <nav id="LOGO_IG">
+          <a href="#"><img id="iconoig"src="imagenes/instagram.png"></a>
+    </nav>
+
+    <script type="text/javascript" src="js/contacto.js">
+
+    </script>
+</footer>
+
+
+  </body>
+</html>

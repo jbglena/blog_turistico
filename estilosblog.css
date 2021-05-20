@@ -1,0 +1,1362 @@
+header, section, footer {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10PX;
+}
+
+
+header {
+    height: 55px;
+    border-style: solid;
+    border-color: #7d7e80;
+    border-width: 1px;
+    background-image: url(imagenes/texturablanca2.jpg);
+  }
+
+  #NOMBREBLOG{
+  width: 170px;
+  height: 55px;
+  float: left;
+}
+
+     h1{
+      margin-left:18px;
+      margin-right: auto;
+      margin-top:10px;
+      font-size: 25px;
+      font-family: elephant;
+      color: #000000;
+     }
+
+     .vector{
+       width: 100px;
+       height: 55px;
+       float: left;
+     }
+
+#contenido_index {
+height: 2120px;
+background-color: #f7f6e6;
+}
+
+  .contenedor {
+    width:960px;
+    margin: 0 auto;
+  }
+
+  .banner {
+    width: 960;
+    height: 250px;
+    margin: auto;
+    animation: banner 9s infinite;
+  }
+
+  @keyframes banner {
+    0%, 5% {
+      opacity: 0.1;
+    }
+    5%, 30% {
+      background-image: url(imagenes/capadoccia.jpg);
+      opacity: 1;
+    }
+    31%, 34% {
+      opacity: 0.1;
+    }
+    35%, 65% {
+      background-image: url(imagenes/disney.jpg);
+      opacity: 1;
+    }
+
+    66%, 69% {
+      opacity: 0.1;
+    }
+
+    70%, 100% {
+      opacity: 1;
+      background-image: url(imagenes/arquitectura.jpg);
+    }
+
+  }
+
+  /*@media (max-width: 800px) {
+    .banner {
+      height: auto;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .banner {
+      height: 300px;
+    }
+  }*/
+
+    #TITULO_FOTOS{
+      width: 900px;
+      height: 50px;
+      background-color: #ffffff;
+      margin-bottom: 30px;
+      margin-left: auto;
+      margin-right:auto;
+      overflow: visible;
+      clear: both;
+      }
+
+          #TITULO_FOTOS h2{
+          font-family: 'volkhvo-bold';
+          text-align: center;
+          padding-top: 9px;
+          font-size: 30px;
+          animation-name: animacionTitulo;
+          animation-duration: 2s;
+          animation-direction: alternate;
+          animation-iteration-count: infinite;
+
+          }
+
+            @keyframes animacionTitulo {
+              from {color: #f07a84;
+              }
+              to {color: #ded147;}
+              }
+
+          @font-face { /*TIPOGRAFIA TITULOS PAG PRINCIPAL*/
+            font-family: 'volkhvo-bold';
+            src: url(fuente/Volkhov-Bold.ttf);
+          }
+
+          #SOBRE_MI{
+            width: 800px;
+            height: 140px;
+            margin: auto;
+            }
+
+          #SOBRE_MI p{
+            font-family: 'volkhvo-italic';
+            font-size: 20px;
+            text-align:center;
+          }
+
+          #caja_nombre{
+            font-family: 'volkhvo-italic';
+            text-align: center;
+          }
+
+                @font-face { /* TIPOGRAFIA DIV PRESENTACION*/
+                font-family: 'volkhvo-italic';
+                src: url(fuente/Volkhov-Italic.ttf);
+                }
+
+      #DESTINOS_POPUS{
+        width: 800px;
+        height: 50px;
+        background-color: white;
+        margin: auto;
+        margin-bottom: 20px;
+        }
+
+      #DESTINOS_POPUS h2{
+        text-align: center;
+        padding-top: 9px;
+        font-family: 'volkhvo-bold';
+        font-size:25px;
+        }
+
+#NYC , #PARIS , #ROMA , #MEXICO , #BRASIL , #PERU{
+  width: 270px;
+  height: 200px;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 20px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px 10px 0px 0px
+  }
+
+      #NYC{
+        background-image: url(imagenes/estatualibertad.jpg);
+        float: left;
+        }
+
+      #PARIS{
+        background-image: url(imagenes/paris.jpg);
+        float: left;
+        }
+
+      #ROMA{
+        float: right;
+        background-image:url(imagenes/roma.jpg);
+        }
+
+#TEXTOEEUU , #TEXTOPARIS , #TEXTOROMA , #TEXTOMEXICO , #TEXTOBRASIL , #TEXTOPERU {
+width: 270px;
+height: 169px;
+float: left;
+margin-right: 25px;
+margin-left: 25px;
+margin-bottom: 25PX;
+border-radius: 0px 0px 10px 10px
+}
+
+#TEXTOEEUU , #TEXTOPARIS , #TEXTOROMA{ /* COLOR DE FONDO ROSA OSCURO*/
+background-color:#f07a84;
+}
+
+#TEXTOMEXICO , #TEXTOBRASIL , #TEXTOPERU{ /*COLOR DE FOnDO ROSA MÁS CLARO*/
+background-color:#e4b7ae;
+}
+
+          .NUEVAYORK , .PARIS , .ROMA , .MEXICO , .BRASIL , .PERUU{ /*LINKS ROSA CON SOMBRA*/
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            line-height: 30px;
+            color: #FFFFFF;
+            text-shadow: 2px 2px 2px #ff0000;
+            font-size: 25px;
+            font-family: elephant;
+            }
+
+            #TEXTOEEUU p , #TEXTOPARIS p , #TEXTOROMA p , #TEXTOBRASIL p , #TEXTOMEXICO p , #TEXTOPERU p { /*DESCRIPCION DE CADA DESTINO*/
+              margin-top: 4px;
+              margin-right: 5px;
+              padding: 0;
+              margin-left: 5px;
+              text-align: center;
+              font-family: 'volkhvo-italic';
+              color: black;
+              }
+
+                  #TEXTOEEUU p , #TEXTOPARIS p , #TEXTOROMA p{
+                    font-size: 13px;
+                    }
+
+                    #TEXTOBRASIL p , #TEXTOMEXICO p , #TEXTOPERU p{
+                      font-size: 11px;
+                      }
+
+      #MEXICO{
+      float: left;
+      background-image: url(imagenes/mexico.jpg);
+      }
+
+      #BRASIL{
+      float: left;
+      background-image: url(imagenes/riodejaneiro.jpg);
+      }
+
+      #PERU{
+      float: right;
+      background-image: url(imagenes/peru.jpg);
+      }
+
+
+   #BANNER_FINAL{
+   width: 960px;
+   height: 100px;
+   background-color: #efd331;
+   clear: both;
+   }
+
+            .FRASE_FINAL{
+              font-style: italic;
+              font-family: 'volkhvo-italic';
+              font-size: 23px;
+              text-align: center;
+              padding-top: 15px;
+              color: black;
+              }
+
+      #VIDEOFINAL{
+        width: 960px;
+        height: 400px;
+        background-color: #f7f6e6;
+        padding-top: 10px;
+        margin-top: 10px;
+        }
+
+            .VIDEO {
+              width: 651px;
+              margin-top: 10px;
+              box-shadow: 9px 7px 21px 9px #999;
+              }
+
+              #botonera-video ul{
+             margin: 0px;
+             padding: 0px;
+             list-style-type: none;
+             }
+
+                #botonera-video ul li{
+                  display: inline;
+                }
+
+                #botonera-video{
+                  width: 100%;
+                  margin-bottom: 15px;
+                  position: relative;
+                }
+
+                #botonera-video ul li a{
+                  color: black;
+                  text-decoration: none;
+                  margin-top: 10px;
+                  font-size: 20px;
+                  display: inline-block;
+                  padding: 7px;
+                  border-radius: 10px;
+                  background-color: #efd331;
+                 }
+
+                 .webinars{
+                   width: 500px;
+                   height: 100px;
+                   margin: auto;
+                   margin-top: 25px;
+                   }
+
+                 .webinars a{
+                   font-size: 25px;
+                   line-height: 100px;
+                   color: black;
+                   font-family: britannic;
+                 }
+
+                 /* WEBINARS DENTRO DE INICIO*/
+                 #formulario_operaciones{
+                 	width: 960px;
+                 	height: 700px;
+                   background-image: url(imagenes/israel-2779389_1920.jpg);
+                   background-size: cover;
+                 	border-style: groove;
+                 }
+
+                 #registro{
+                 	width: 600px;
+                 	height: 500px;
+                   margin-left: 11em;
+                   margin-top: 30px;
+                 	text-align: center;
+                 }
+
+                 #america, #europa, #asia, #oceania {
+                 	background-color: white;
+                 	width: 400px;
+                 	height: 30px;
+                 }
+
+                 #guardar{
+                   width: 100px;
+                   height: 30px;
+                   margin-top: 10px;
+                 }
+
+                 h4{
+                   font-size: 23px;
+                   margin-bottom: 5px;
+                   font-family: times;
+                 }
+
+                 #borrar a{
+                 color: black;
+                 font-size: 20px;
+                 margin-top: 5px;
+                 }
+footer {
+height:80px;
+background-image: url(imagenes/texturablanca2.jpg);
+}
+
+          #LOGO_FB , #LOGO_IG {
+          width: 70px;
+          height: 70px;
+          margin-right: 30px;
+          padding-top: 5px;
+          float:right;
+          }
+
+              #iconofb , #iconoig{
+                width: 40px;
+                height: 40px;
+                padding: 15px;
+                filter: saturate(0.5);
+                }
+
+/*_____________________SECCION CONTACTO___________________________________________________*/
+  #CONTENIDO_CONTACTO{
+    height: 800px;
+    background-color: white;
+  }
+
+      #CONTACTO{
+        width: 800px;
+        height: 320px;
+        margin: auto;
+        margin-bottom: 20px;
+        }
+
+        .FORM_CONTACTO{
+          margin-top: 10px;
+          padding-top: 15px;
+          font-family: britannic;
+          text-align: center;
+          }
+
+        .TEXT , .TEXT2, .TEXT3, .OTROS_TEMAS{
+          font-size: 20px;
+          margin left: 15px;
+          font-family: times , garamond;
+          }
+
+#FORMULARIO1{
+  width: 760px;
+  height: 390px;
+  font-family: times , garamond;
+  margin: auto;
+}
+
+input , textarea{
+  height: 20px;
+  border-radius: 15px;
+  border-color: grey;
+  padding: 0.5em;
+  margin-bottom: 0.9rem;
+}
+
+textarea{
+  height: 190px;
+}
+
+ button  {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #f7f6e6;
+  margin-top: 10px;
+  }
+
+#cajasoltar {
+float: left;
+width: 360px;
+height: 20px;
+margin: 10px;
+border: 2px solid grey;
+border-radius: 10px;
+padding: 0.5em;
+}
+/*----------------------SECCIÓN NOTICIASSSSSSS----------------------------*/
+  #CONTENIDO_NOTICIAS{
+    height: 1325px;
+    background-color: #f7f6e6;
+  }
+
+  #NOTICIA1{ /*DISNEY*/
+    width: 960px;
+    height: 300px;
+    background-image: url(imagenes/disney.jpg);
+    position: relative;
+    }
+
+  .info1 , .info4{
+  width: 460px;
+  height: 70px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+    .info1 h2, .info2 h2 , .info3 h2, .info4 h2{
+      color: white;
+      font-family: times , garamond;
+      margin-left: 8px;
+      text-align: center;
+      font-size: 23px;
+    }
+
+  .ENTERATE1 , .ENTERATE4{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  background-color: #1c2278;
+  bottom: 17px;
+  left: 81%;
+  border-radius: 5px;
+  }
+
+  .ENTERATE1 a , .ENTERATE2 a , .ENTERATE3 a, .ENTERATE4 a { /*BOTON*/
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size:22PX;
+    color: white;
+    font-family: times , garamond;
+    line-height: 40px;
+    margin-left: 20px;
+    }
+
+  #NOTICIA2 , #NOTICIA3{
+    width: 480px;
+    height: 300px;
+    position: relative;
+    }
+
+    #NOTICIA2{
+      float: left;
+      background-image: url(imagenes/diamuertosmex.jpg);
+      background-size: cover;
+      }
+
+      #NOTICIA3{
+        background-image: url(imagenes/aeropuerto.jpg);
+        float: right;
+        }
+
+          .info2 , .info3{ /*TITULO DE LA NOTA*/
+            width: 350px;
+            height: 70px;
+            background-color: rgba(0, 0, 0, 0.5);
+            float: left;
+            margin-left: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            }
+
+            .info2 h2 , .info3 h2{
+              text-align: center;
+              margin-top: 10px;
+            }
+
+              .ENTERATE2 , .ENTERATE3{ /*BOTON PARA ENTRAR A LA NOTA*/
+              position: absolute;
+              width: 150px;
+              height: 40px;
+              background-color: #1c2278;
+              bottom: 17px;
+              left: 60%;
+              border-radius: 5px;
+              }
+
+  #NOTICIA4 {
+    width: 960px;
+    height: 300px;
+    background-image: url(imagenes/tailandia.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    clear: both;
+    }
+
+    .info4 h2{
+      line-height: 25px;
+      margin-top: 10px;
+    }
+
+    #NOTICIA5{ /* TABLA DIVISAS*/
+      width: 960px;
+      height: 260px;
+      position: relative;
+      margin-top: 10px;
+      background:-webkit-gradient(linear, 0 0, 100% 0, from(#e3ecfc),  color-stop(100%,#568cf5))
+    }
+
+      .info5{ /* TABLA DE DIvISAS*/
+        width: 300px;
+        height: 40px;
+        margin-top: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        left: 35%;
+        border-radius: 5px;
+      }
+
+        .info5 h2{
+          font-size:22PX;
+          color: white;
+          font-family: times , garamond;
+          text-align: center;
+          margin-top: 8px;
+          }
+
+    .TABLA{
+      width: 690px;
+      height: 120px;
+      bottom: 65px;
+      right: 15%;
+      position: absolute;
+    }
+
+        .TABLA table{
+          width: 100%;
+          border-collapse: collapse;
+          background-color: white;
+          text-align: left;
+          }
+
+            td, th {
+              padding: 10px;
+              font-family: times , garamond;
+              font-size: 18px;
+              }
+
+              thead{
+                background-color: #6f65f7;
+                color: white;
+                border-bottom: solid 3px black;
+              }
+
+              tr:hover{
+                background-color: #bfbbfc;
+              }
+
+#NEWSLETTER , #NEWSLETTER2{
+  width: 960px;
+  height: 130px;
+  margin-top: 20px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#NEWSLETTER h3 , #NEWSLETTER2 p{
+  font-size: 20px;
+  font-family: 'volkhvo-italic';
+  text-align: center;
+}
+
+  #NEWSLETTER form{
+    margin-left: 20%;
+}
+
+#NEWSLETTER button{
+width: 130px;
+height: 35px;
+}
+/*----------------------SECCION DESTINOS--------------------*/
+
+    #CONTENIDO_DESTINOS{
+      height: 700px;
+      background-color: #f7f6e6;
+      }
+
+    #MENU_DESTINOS {
+      width: 250px;
+      height: 470px;
+      position: absolute;
+      margin-left: 0;
+      margin-top: 20px;
+      }
+
+   ul.nav{
+        font-family: britannic;
+        display: block;
+        width: 290px;
+        position: relative;
+        -webkit-background-size: 50% 100%;
+        -moz-background-size: 50% 100%;
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        }
+
+   ul.nav li a{
+     margin-bottom: 9px;
+     text-decoration: none;
+     -webkit-transition: all 0.7s ease-out;
+     -moz-transition: all 0.7s ease-out;
+     -o-transition: all 0.3s ease-out;
+     background: #f7f3d5;
+     color: black;
+     padding: 7px 15px 7px 15px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius:10px;
+     border-radius: 0 7px 7px 0;
+     width: 200px;
+     display: block;
+     text-decoration: none;
+     -webkit-box-shadow: 2px 2px 4px #0e169b;
+     -moz-box-shadow: 2px 2px 4px #0e169b;
+     box-shadow: 2px 2px 4px #0e169b;
+     }
+
+     #medioOriente, #oriente , #europadeleste , #europaoccidental , #latinoamerica{
+       list-style: none;
+       margin: 0;
+       padding: 0;
+     }
+
+     #medioOriente li a, #oriente li a , #europadeleste li a , #europaoccidental li a , #latinoamerica li a {
+       background-color: #f7fa9d;
+       width: 170px;
+       font-size: 16px;
+      }
+
+     ul.nav li a:hover {
+        background: #ede5ab;
+        color: #67a5cd;
+        padding: 7px 15px 7px 30px;
+     }
+
+     .titulo_destinos{
+       width: 650px;
+       height: 190px;
+       float: right;
+       position: relative;
+       right: 6%;
+       margin-top: 10px;
+        }
+
+        .titulo_destinos h2{
+          text-align: center;
+          font-family: britannic;
+          font-size: 40px;
+          color: black;
+          padding: 0;
+          margin-top: 5px;
+        }
+
+        .titulo_destinos p{
+          text-align: center;
+          margin: 0;
+          font-size: 17px;
+          font-family: britannic;
+          }
+
+          .LIBRERIA{
+            clear: both;
+            width: 600px;
+            height: 400px;
+            position: relative;
+            left: 31%;
+          }
+
+          .LIBRERIA img{
+            width: 290px;
+            margin: auto;
+            clear: both;
+           }
+
+    #lienzo{
+      width:350px;
+      height:100px;
+      margin-left: 25em;
+      clear: both;
+    }
+
+/*RESPONSIVE 600 a 1023--------------------------------------------------------------------*/
+/*RESPONSIVE 600 a 1023--------------------------------------------------------------------*/
+/*RESPONSIVE 600 a 1023--------------------------------------------------------------------*/
+
+          @media all and (min-width: 600px) and (max-width: 1023px){
+
+            header, section, footer {
+              width:580px;
+            }
+
+              #NOMBREBLOG{
+              width: 150px;
+              }
+
+                  h1{
+                  font-size: 20px;
+                  }
+
+                  .vector{
+                    display: none;
+                  }
+            #contenido_index {
+            height: 1900px;
+            }
+
+                .contenedor {
+                  width:580px;
+                  height: auto;
+                }
+
+                .banner {
+                  width: 580px;;
+                 background-position: center;
+                  }
+
+                #TITULO_FOTOS{
+                  width: 520px;
+                }
+
+                      #TITULO_FOTOS h2{
+                      font-size: 17px;
+                      padding-top:15px;
+                      }
+
+                      #SOBRE_MI{
+                        width: 520px;
+                        }
+
+                      #SOBRE_MI p{
+                        font-size: 16px;
+                      }
+
+                  #DESTINOS_POPUS{
+                    width: 520px;
+                    height: 35px;
+                    }
+
+                  #DESTINOS_POPUS h2{
+                    padding-top: 7px;
+                    font-size: 18px;
+                    }
+
+                    #NYC , #PARIS , #ROMA , #MEXICO , #BRASIL , #PERU{
+                      width: 170px;
+                      height: 150px;
+                      margin-right: 13px;
+                      margin-left: 10px;
+                      }
+
+                    #TEXTOEEUU , #TEXTOPARIS , #TEXTOROMA , #TEXTOMEXICO , #TEXTOBRASIL , #TEXTOPERU {
+                    width: 170px;
+                    height: 200px;
+                    margin-right: 13px;
+                    margin-left: 10px;
+                    margin-bottom: 20PX;
+                    }
+
+                              .NUEVAYORK , .PARIS , .ROMA , .MEXICO , .BRASIL , .PERUU{ /*LINKS ROSA CON SOMBRA*/
+                                line-height: 19px;
+                                font-size: 16px;
+                                margin-top: 2px;
+                                }
+
+                                      #TEXTOEEUU p , #TEXTOPARIS p , #TEXTOROMA p{
+                                        font-size: 12px;
+                                        }
+
+                                        #TEXTOBRASIL p , #TEXTOMEXICO p , #TEXTOPERU p{
+                                          font-size: 11px;
+                                          }
+
+               #BANNER_FINAL{
+               width: 580px;
+               height: 55px;
+               }
+
+                        .FRASE_FINAL{
+                          font-size: 14px;
+                          padding-top: 10px;
+                          }
+
+                  #VIDEOFINAL{
+                    width: 580px;
+                    height: 400px;
+                    }
+
+                        .VIDEO {
+                          width: 540px;
+                          box-shadow: 7px 5px 13px 7px #999;
+                          }
+
+                      #LOGO_FB , #LOGO_IG {
+                      height: 60px;
+                      width: 60px;
+                      margin-right: 10px;
+                      }
+
+                      .webinars{
+                        width: 500px;
+                        height: 50px;
+                        margin-top: 5px;
+                        }
+
+                      .webinars a{
+                        font-size: 19px;
+                        line-height: 0px;
+                        }
+
+/*_____________________SECCION CONTACTO___________________________________________________*/
+              #CONTENIDO_CONTACTO{
+                height: 880px;
+              }
+
+                  #CONTACTO{
+                    width: 580px;
+                    height: 400px;
+                    }
+/*--------------------------- Webinars--------------------------------*/
+#formulario_operaciones{
+	width: 580px;
+	height: 700px;
+}
+
+#registro{
+	width: 400px;
+	height: 400px;
+  margin-left: 6em;
+  margin-top: 30px;
+}
+
+#america, #europa, #asia, #oceania {
+	height: 30px;
+}
+
+h4{
+  font-size: 19px;
+  }
+
+#borrar a{
+font-size: 16px;
+}
+  /*----------------------SECCIÓN NOTICIASSSSSSS----------------------------*/
+
+              #CONTENIDO_NOTICIAS{
+                height: 1370px;
+              }
+
+              #NOTICIA1{ /*DISNEY*/
+                width: 580px;
+                background-image: url(imagenes/disney2.jpg);
+                background-size: cover;
+                }
+
+
+              .ENTERATE1 , .ENTERATE4{
+              left:70%;
+              }
+
+              #NOTICIA2 , #NOTICIA3{
+                width: 290px;
+                }
+
+                #NOTICIA2{
+                  background-position: center;
+                  }
+
+                  #NOTICIA3{
+                    background-size: cover;
+                    }
+
+                      .info2 , .info3{ /*TITULO DE LA NOTA*/
+                        width: 230px;
+                        height: 100px;
+                      }
+
+                        .info2 h2 , .info3 h2{
+                          font-size: 23px;
+                        }
+
+                          .ENTERATE2 , .ENTERATE3{ /*BOTON PARA ENTRAR A LA NOTA*/
+                          left: 40%;
+                          }
+
+              #NOTICIA4 {
+                width: 580px;
+                }
+
+                  #NOTICIA5{ /* TABLA DIVISAS*/
+                  width: 580px;
+                  }
+
+                .info5{ /* TABLA DE DIvISAS*/
+                  width: 300px;
+                  left: 25%;
+                   }
+
+                .TABLA{
+                  width: 500px;
+                  right: 7%;
+                  }
+
+                  #NEWSLETTER , #NEWSLETTER2{
+                    width: 580px;
+                  }
+
+                  #NEWSLETTER h3 , #NEWSLETTER2 h3, p{
+                    font-size: 17px;
+                  }
+
+/*----------------------SECCION DESTINOS--------------------*/
+
+                #CONTENIDO_DESTINOS{
+                  height: 580px;
+                  }
+
+                #MENU_DESTINOS {
+                  width: 150px;
+                  height: 470px;
+                  }
+
+               ul.nav{
+                    width: 150px;
+                    }
+
+               ul.nav li a{
+                 width: 150px;
+                 }
+
+                 .titulo_destinos{
+                   width: 360px;
+                   right: 3%;
+                    }
+
+                        .LIBRERIA{
+                          clear: both;
+                          width: 360px;
+                          height: 290px;
+                          position: relative;
+                          top: 90px;
+                          left: 35%;
+                        }
+
+                        .LIBRERIA img{
+                          width: 172px;
+                          margin: auto;
+                          clear: both;
+                         }
+
+                           #lienzo{
+                           display: none;
+                         }
+          }/* fin de media 600 a 1023px - no borrar*/
+
+  /*RESPONSIVE MAX 599--------------------------------------------------------------------*/
+  /*RESPONSIVE MAX 599--------------------------------------------------------------------*/
+  /*RESPONSIVE MAX 599--------------------------------------------------------------------*/
+
+          @media all and (max-width: 599px) {
+            header, section, footer {
+              width: 90%;
+              }
+
+            header {
+                height:auto;
+                }
+
+              #NOMBREBLOG{
+              width: 100%;
+              height: auto;
+              float: none;
+            }
+
+            h1{
+            text-align: center;
+           }
+
+           .vector{
+             display: none;
+           }
+
+            #contenido_index {
+            height: auto;
+            }
+
+
+              .contenedor {
+                width:100%;
+                height: auto;
+              }
+
+              .banner {
+                width: 100%;
+               background-position: center;
+               background-size: cover;
+                }
+
+                #TITULO_FOTOS{
+                  width: 90%;
+                  height: auto;
+                 }
+
+                      #TITULO_FOTOS h2{
+                      font-size: 20px;
+                      }
+
+                      #SOBRE_MI{
+                        width: 95%;
+                        height: auto;
+                        }
+
+                      #SOBRE_MI p{
+                        font-size: 15px;
+                      }
+
+                  #DESTINOS_POPUS{
+                    width: 90%;
+                    height: auto;
+                    }
+
+                  #DESTINOS_POPUS h2{
+                    font-size:20px;
+                    }
+
+            #NYC , #PARIS , #ROMA , #MEXICO , #BRASIL , #PERU{
+            display: none;
+              }
+
+            #TEXTOEEUU , #TEXTOPARIS , #TEXTOROMA , #TEXTOMEXICO , #TEXTOBRASIL , #TEXTOPERU {
+            width: 90%;
+            margin-left: 16px;
+            height: auto;
+            border-radius: 10px 10px 10px 10px
+            }
+
+                              #TEXTOEEUU p , #TEXTOPARIS p , #TEXTOROMA p {
+                                font-size: 15px;
+                                }
+
+                                #TEXTOBRASIL p , #TEXTOMEXICO p , #TEXTOPERU p{
+                                  font-size: 15px;
+                                  }
+
+               #BANNER_FINAL{
+               width: 100%;
+               height: auto;
+               }
+
+                        .FRASE_FINAL{
+                          font-size: 18px;
+                          padding-top: 5px;
+                          }
+
+                  #VIDEOFINAL{
+                    width: 100%;
+                    height: auto;
+                    }
+
+                        .VIDEO {
+                          width: 90%;
+                          margin-top: 10px;
+                          box-shadow: 9px 9px 21px 9px #999;
+                          }
+
+                          .webinars{
+                            width: 90%;
+                            height: auto;
+                            margin-top: 10px;
+                            }
+
+                          .webinars a{
+                            font-size: 15px;
+                            line-height: 0;
+                            }
+
+/*_____________________SECCION CONTACTO___________________________________________________*/
+
+              #CONTENIDO_CONTACTO{
+                height: auto;
+              }
+
+                  #CONTACTO{
+                    width: 95%;
+                    height: auto;
+                    }
+
+
+            #FORMULARIO1{
+              width: 100%;
+              height: auto;
+            }
+
+            textarea{
+              height: auto;
+              width: 95%;
+               }
+
+               input{
+                 width: 90%;
+               }
+
+             button  {
+              width: 100px;
+            }
+/* ------------------WEBINARS-------------------------------*/
+#formulario_operaciones{
+	width: 90%;
+	height: auto;
+}
+
+#registro{
+	width: 90%;
+	height: auto;
+  margin-left: 1em;
+}
+
+#america, #europa, #asia, #oceania {
+	width: 90%;
+}
+
+#guardar{
+  width: 40%;
+}
+
+h4{
+  font-size: 23px;
+  margin-bottom: 5px;
+  font-family: times;
+  }
+
+#borrar a{
+color: black;
+font-size: 20px;
+margin-top: 5px;
+}
+/*----------------------SECCIÓN NOTICIASSSSSSS----------------------------*/
+
+              #CONTENIDO_NOTICIAS{
+                height: auto;
+              }
+
+              #NOTICIA1{ /*DISNEY*/
+                width: 100%;
+                height: 250px;
+                background-image: url(imagenes/disney2.jpg);
+                background-position: center;
+                background-size: cover;
+                }
+
+              .info1 , .info4{
+              width: 70%;
+              height: auto;
+              float: left;
+              margin-top: 10px;
+            }
+
+                .info1 h2, .info2 h2 , .info3 h2, .info4 h2{
+                  font-size: 20px;
+                }
+
+              .ENTERATE1 , .ENTERATE4{
+              position: absolute;
+              width: 120px;
+              left: 61%;
+              }
+
+              .ENTERATE1 a , .ENTERATE2 a , .ENTERATE3 a, .ENTERATE4 a { /*BOTON*/
+                font-size:20PX;
+                color: white;
+                margin-left: 10px;
+                }
+
+              #NOTICIA2 , #NOTICIA3{
+                width: 100%;
+                height: 250px;
+                }
+
+                #NOTICIA2{
+                  float: none;
+                  }
+
+                  #NOTICIA3{
+                    float: none;
+                    }
+
+                      .info2 , .info3{ /*TITULO DE LA NOTA*/
+                        width: 70%;
+                        height: auto;
+                        }
+
+                        .info2 h2 , .info3 h2{
+                          text-align: center;
+                          margin-top: 10px;
+                        }
+
+                          .ENTERATE2 , .ENTERATE3{ /*BOTON PARA ENTRAR A LA NOTA*/
+                          width: 120px;
+                          height: 40px;
+                          left: 61%;
+                          }
+
+              #NOTICIA4 {
+                width: 100%;
+                height: 250px;
+                }
+
+                  #NOTICIA5{ /* TABLA DIVISAS*/
+                  width: 100%;
+                }
+
+                  .info5{ /* TABLA DE DIvISAS*/
+                    width: 70%;
+                    height: auto;
+                    left: 15%;
+                  }
+
+                .TABLA{
+                  width: 95%;
+                  height: auto;
+                  bottom: 2%;
+                  right: 2%;
+                }
+
+                #NEWSLETTER , #NEWSLETTER2{
+                  width: 100%;
+                  height: auto;
+                  margin-top: 10px;
+                }
+
+                #NEWSLETTER h3 , #NEWSLETTER2 h3, p{
+                  font-size: 15px;
+                  text-align: center;
+                }
+
+                  #NEWSLETTER form{
+                    margin-left: 10px;
+                }
+                #NEWSLETTER button{
+                   width: 100px;
+                   height: 30px;
+                   margin-bottom: 7px;
+                }
+/*----------------------SECCION DESTINOS--------------------*/
+
+                #CONTENIDO_DESTINOS{
+                  height: 600px;
+                  }
+
+                #MENU_DESTINOS {
+                  width: 100%;
+                  height: auto;
+                  }
+
+               ul.nav{
+                    width: 60%;
+                    font-size: 17px;
+                    }
+
+               ul.nav li a{
+                 margin-bottom: 9px;
+                 -webkit-transition: all 0.3s ease-out;
+                 -moz-transition: all 0.3s ease-out;
+                 padding: 7px 10px 7px 15px;
+
+                 width: 50%;
+                 }
+
+                 #medioOriente li a, #oriente li a , #europadeleste li a , #europaoccidental li a , #latinoamerica li a {
+                 width: 45%;
+                   font-size: 14px;
+                  }
+
+                 ul.nav li a:hover {
+                    padding: 7px 10px 7px 30px;
+                 }
+
+                 .titulo_destinos{
+                   width: 48%;
+                   top: 50px;
+                    }
+
+                    .titulo_destinos h2{
+                      font-size: 35px;
+                    }
+
+                    .titulo_destinos p{
+                      font-size: 15px;
+                      }
+
+                      .LIBRERIA{
+                    display: none;
+                      }
+
+                      #lienzo{
+                      display: none;
+                    }
+          }/* fin de media max 599px - no borrar*/

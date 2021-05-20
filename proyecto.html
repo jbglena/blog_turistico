@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PROYECTO BLOG TURISMO</title>
+    <link rel="stylesheet" href="estilosblog.css">
+    <link rel="stylesheet" href="iconosvideo.css">
+    <link rel="stylesheet" href="menuflexbox.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+<body>
+  <header>
+    <div id="NOMBREBLOG">
+
+      <h1>Let's travel</h1>
+  </div>
+
+  <div class="vector">
+    <svg width="30" height="50" viewBox="0 0 250 200">
+
+      <path fill="black" d="M92.71,7.27L92.71,7.27c-9.71-9.69-25.46-9.69-35.18,0L50,14.79l-7.54-7.52C32.75-2.42,17-2.42,7.29,7.27v0 c-9.71,9.69-9.71,25.41,0,35.1L50,85l42.71-42.63C102.43,32.68,102.43,16.96,92.71,7.27z"></path>
+
+      <animateTransform
+          attributeName="transform"
+          type="scale"
+          values="1; 1.5; 1.25; 1.5; 1.5; 1;"
+          dur="4s"
+          repeatCount="indefinite">
+      </animateTransform>
+    </svg>
+
+  </div>
+
+    <div class="menu-flex">
+      <nav class="BOTONERAPRINCIPAL menu-simple">
+        <ul>
+          <li><a href="proyecto.html">Inicio</a></li>
+          <li><a href="destinos.html">Destinos</a></li>
+          <li><a href="noticias.html">Noticias</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+     </nav>
+   </div>
+</header>
+
+<section id="contenido_index">
+
+   <div class="contenedor">
+     <div class="banner">
+     </div>
+   </div>
+
+ <div id="TITULO_FOTOS">
+   <h2>UN BLOG, CIENTOS DE DESTINOS, MILES DE AVENTURAS.</h2>
+ </div>
+
+ <article id="SOBRE_MI">
+   <h3 id="caja_nombre"></h3>
+
+  <p> Somos Macarena y Lola, desde que nos conocimos intentamos cumplir nuestro sueño de recorrer el mundo. Nos gusta la aventura, la sensación de estar perdidas en alguna parte del mundo y llevar nuestra mochila a cuestas.
+      El fin de este blog es brindar informacion sobre destinos y compartir nuestras experiencias con todos ustedes.
+  </p>
+ </article>
+
+ <div id="DESTINOS_POPUS">
+    <h2> DESTINOS MÁS VISITADOS</h2>
+ </div>
+
+   <div id="NYC"></div>
+   <div id="PARIS"></div>
+   <div id="ROMA"></div>
+
+   <div id="TEXTOEEUU">
+     <a class="NUEVAYORK"href="#">Nueva York</a>
+     <p>Ciudad cosmopolita, escenario de muchas peliculas. Pasear por Central Park, ir al MoMA, la Estatua de la Libertad, los rascacielos como el Empire State Building, cruzar el Puente de Brooklyn, Little Italy, es solo una parte de todo lo que puedes hacer.</p>
+  </div>
+
+
+   <div id="TEXTOPARIS">
+     <a class="PARIS"href="#">Paris, Francia</a>
+     <p>Ciudad del amor & la literatura, donde podras visitar la magnifica Torre Eiffel, Notre Dame, el Museo del Louvre. También pasear por sus barrios como Marais o el Barrio latino, disfrutar de la gastronomía en algunos de sus bistro,
+        pasear por la rivera del Sena.</p>
+   </div>
+
+   <div id="TEXTOROMA">
+     <a class="ROMA"href="#">Roma, Italia </a>
+     <p>La ciudad es una lección de Historia para cualquier viajero. Hay tanto que hacer en Roma, desde visitar el centro del Imperio Romano, ver el Coliseo y todas las ruinas arqueológicas, dejarse maravillar con las obras de los Museos & basailicas del Vaticano.</p>
+   </div>
+
+   <div id="MEXICO"></div>
+   <div id="BRASIL"></div>
+   <div id="PERU"></div>
+
+   <div id="TEXTOMEXICO">
+     <a class="MEXICO"href="#"> Playa del carmen, Mexico </a>
+     <p>De los más visitados de la Riviera Maya. Caracterizado por sus playas de arena blanca de mar turquesa propias del Mar Caribe.
+       Playa del Carmen es uno de los destinos principales del mundo del buceo, tambien es posible bañarse en alguno de los cenotes de la zona.</p>
+   </div>
+   <div id="TEXTOBRASIL">
+     <a class="BRASIL"href="#"> Rio de Janerio, Brasil </a>
+    <p>Desde el mirador de la Estatua de Cristo el Redentor, se puede tener una vista panoramica de Río de Janeiro.
+       La ciudad es un lugar de playas míticas, como Ipanema o Copacabana, donde el ritmo, la festividad y la alegría brasileña, atraen a miles de viajeros de todo el mundo.</p>
+   </div>
+   <div id="TEXTOPERU">
+     <a class="PERUU"href="#"> Cuzco, Peru </a>
+     <p> Capital de Perú. Reconoce como la “capital histórica” del país. Fue fundada, nada más y nada menos, que por los hijos del dios Sol,según la mitologia inca.
+        Desde la ciudad se pueden hacer una gran cantidad de excursiones para conocer el Valle Sagrado de los Incas o hacer el Camino Inca hacia Machu Picchu.</p>
+   </div>
+
+   <article id="BANNER_FINAL"> <h2 class="FRASE_FINAL">“Somos el resultado de los libros que leemos, los cafés que disfrutamos, los viajes que hacemos y las personas que amamos” -Airton Ortiz</h2> </article>
+
+   <div style="text-align: center;" id="VIDEOFINAL">
+      <video class="VIDEO" poster="imagenes/aeropuerto.jpg "src="videos/vueltaalmundo.mp4" type="video/mp4"> Tu navegador no soporta HTML
+      </video>
+        <nav id="botonera-video">
+          <ul>
+            <li> <a href="#botonera-video" id="reproducir" onclick="reproducir()"><span class="icon-play3"></span></a></li>
+            <li> <a href="#botonera-video" id="atras"onclick="saltar(-5)"> <span class="icon-backward2"></span></a></li>
+            <li> <a href="#botonera-video" id="adelante" onclick="saltar(+5)"><span class="icon-forward3"></span></a></li>
+            <li> <a href="#botonera-video" id="detener" onclick="detener()"><span class="icon-stop2"></span></a></li>
+          </ul>
+        </nav>
+    </div>
+
+    <div class="webinars" style="text-align:center">
+      	<a href="webinars.html" target="_blank">Inscribite a nuestros webinars turisticos</a>
+    </div>
+</section>
+
+<footer>
+    <nav id="LOGO_FB">
+          <a href="#"><img id="iconofb"src="imagenes/facebook.png"></a>
+    </nav>
+    <nav id="LOGO_IG">
+          <a href="#"><img id="iconoig"src="imagenes/instagram.png"></a>
+    </nav>
+
+<script type="text/javascript" src="js/proyecto.js"> </script>
+<script type="text/javascript" src="js/funcionesvideo.js"></script>
+</footer>
+</body>
+</html>

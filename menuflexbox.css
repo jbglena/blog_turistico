@@ -1,0 +1,54 @@
+.menu-flex{
+  width: 500px;
+  height: 55px;
+  float: right;
+}
+    .BOTONERAPRINCIPAL ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    }
+              .BOTONERAPRINCIPAL li a{
+              display: block;
+              text-decoration: none;
+              color: #000000;
+              padding: 1em;
+              font-family: britannic;
+              font-size: 20px;
+               }
+                    .BOTONERAPRINCIPAL a:hover{
+                      background-color: #deded9;
+                      opacity: 0.7;
+                      }
+  .menu-simple ul{
+    display: flex;
+    flex-wrap;
+    justify-content: space-between;
+  }
+  .menu-simple li{
+    flex: 1 0 auto;
+    text-align: center;
+  }
+
+ /*RESPONSIVE MAX 599--------------------------------------------------------------------*/
+
+ @media only screen and (max-width: 600px){
+   .menu-flex ul {
+     width: 90%
+     height: auto;
+     display: flex;
+     flex-direction: column;
+   }
+ }
+
+ .menu-flex{
+   width: 100%;
+   height: auto;
+   float: none;
+ }
+               .BOTONERAPRINCIPAL li a{
+               font-size: 17px;
+                }
+                     .BOTONERAPRINCIPAL a:hover{
+                       background-color: white;
+                       }

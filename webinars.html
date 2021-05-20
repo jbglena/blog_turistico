@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <link rel="stylesheet" href="estilosblog.css">
+	<link rel="stylesheet" href="menuflexbox.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Webinars</title>
+</head>
+
+<header>
+	<div id="NOMBREBLOG"><h1>Let's travel</h1></div>
+	<div class="menu-flex">
+		<nav class="BOTONERAPRINCIPAL menu-simple">
+			<ul>
+				<li><a href="proyecto.html">Inicio</a></li>
+				<li><a href="destinos.html">Destinos</a></li>
+				<li><a href="noticias.html">Noticias</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+	 </nav>
+ </div>
+</header>
+
+<body>
+
+	<section id="formulario_operaciones">
+		<div  id="registro">
+		<h1><strong><u>Inscribite a nuestros webinars turisticos.</u></strong></h1>
+
+    <form>
+			<h4>Primero ingresa tus datos</h4>
+		<input type="name" id="nombre" placeholder="Nombre" size="50" required>
+    <input type="email" id="email" placeholder="Correo" size="50" required>
+
+			<h4>America y caribe:</h4>
+		<select id="america">
+			<option value="haz_click" >Haz click</option>
+			<option value="indices">EE UU y Canada</option>
+			<option value="induces">Mexico</option>
+			<option value="indices">Brasil</option>
+      <option value="indices">Argentina</option>
+      <option value="indices">He terminado</option>
+		</select>
+
+			<h4>Europa:</h4>
+		<select id="europa">
+      <option value="haz_click" >Haz click</option>
+      <option value="indices">Francia</option>
+      <option value="induces">Irlanda</option>
+      <option value="indices">España</option>
+      <option value="indices">Balcanes</option>
+      <option value="indices">He terminado</option>
+		</select>
+
+    <h4>Asia: </h4>
+		<select id="asia">
+      <option value="haz_click" >Haz click</option>
+			<option value="indices">Japon</option>
+			<option value="induces">China</option>
+			<option value="indices">Tailandia</option>
+      <option value="indices">He terminado</option>
+		</select>
+
+		<h4>Oceania: </h4>
+		<select id="oceania">
+      <option value="haz_click" >Haz click</option>
+      <option value="indices">Australia</option>
+      <option value="induces">Nueva Zelanda</option>
+      <option value="indices">He terminado</option>
+		</select>
+
+      <br>
+      <input type="button" id="guardar" value="Guardar">
+			<p id="borrar"><a href="#mainContent" onclick="borrar()">Eliminar todo.</a></p>
+
+		</form>
+		<div id="mostrarDatos"></div>
+		</div>
+	</section>
+
+<footer>
+  <nav id="LOGO_FB">
+        <a href="#"><img id="iconofb"src="imagenes/facebook.png"></a>
+  </nav>
+  <nav id="LOGO_IG">
+        <a href="#"><img id="iconoig"src="imagenes/instagram.png"></a>
+  </nav>
+</footer>
+<script type="text/javascript" src="js/storage.js"></script>
